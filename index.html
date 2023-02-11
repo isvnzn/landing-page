@@ -11,92 +11,99 @@
   </head>
 
   <body>
-    <header>
-      <span>logo</span>
-      <nav>
-        <ul>
-          <li><a href="#">link 1</a></li>
-          <li><a href="#">link 2</a></li>
-          <li><a href="#">link 3</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section>
-        <h1>Hero main text</h1>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-          itaque commodi voluptates et harum autem hic quis laborum.
-        </p>
-        <button>Sign up</button>
-      </section>
-      <img src="https://placehold.co/600x400" alt="Placeholder for an image" />
-
-      <section>
-        <h2>Some random heading</h2>
-        <ul>
-          <li>
-            <img
-              src="https://placehold.co/160x160"
-              alt="Placeholder for an image"
-            />
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit
-              cupiditate itaque commodi.
-            </p>
-          </li>
-          <li>
-            <img
-              src="https://placehold.co/160x160"
-              alt="Placeholder for an image"
-            />
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit
-              cupiditate itaque commodi.
-            </p>
-          </li>
-          <li>
-            <img
-              src="https://placehold.co/160x160"
-              alt="Placeholder for an image"
-            />
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit
-              cupiditate itaque commodi.
-            </p>
-          </li>
-          <li>
-            <img
-              src="https://placehold.co/160x160"
-              alt="Placeholder for an image"
-            />
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit
-              cupiditate itaque commodi.
-            </p>
-          </li>
-        </ul>
-      </section>
-
-      <div>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga sequi
-          suscipit quod temporibus tempora culpa recusandae dolore harum maxime.
-          Quae facere.
-        </p>
-        <span>-Thor, God of Thunder</span>
+    <div class="wrapper">
+      <div class="container bg-dark">
+        <header class="header">
+          <span class="logo">logo</span>
+          <nav class="nav">
+            <ul class="links">
+              <li class="link"><a href="#">link 1</a></li>
+              <li class="link"><a href="#">link 2</a></li>
+              <li class="link"><a href="#">link 3</a></li>
+            </ul>
+          </nav>
+        </header>
       </div>
 
-      <div>
-        <div>
-          <section>
-            <h3>Call to action heading</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-          </section>
-          <button>Sign up</button>
+      <main>
+        <div class="container bg-dark">
+          <div class="hero">
+            <section>
+              <h1 class="hero-heading">This website is awesome</h1>
+              <p class="txt-sm-light">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Cupiditate itaque commodi voluptates et harum autem hic quis
+                laborum.
+              </p>
+              <a class="sign-up cta-btn" href="#">Sign up</a>
+            </section>
+            <img
+              src="https://placehold.co/600x300"
+              alt="Placeholder for an image"
+            />
+          </div>
         </div>
-      </div>
-    </main>
-    <footer>Copyright © The Odin Project 2021</footer>
+
+        <div class="container bg-light">
+          <section class="features">
+            <h2 class="features-heading txt-lg-dark">Some random heading</h2>
+            <ul class="cards">
+              <li class="card">
+                <img
+                  src="https://placehold.co/160x160"
+                  alt="Placeholder for an image"
+                />
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+              </li>
+              <li class="card">
+                <img
+                  src="https://placehold.co/160x160"
+                  alt="Placeholder for an image"
+                />
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+              </li>
+              <li class="card">
+                <img
+                  src="https://placehold.co/160x160"
+                  alt="Placeholder for an image"
+                />
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+              </li>
+              <li class="card">
+                <img
+                  src="https://placehold.co/160x160"
+                  alt="Placeholder for an image"
+                />
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+              </li>
+            </ul>
+          </section>
+        </div>
+
+        <div class="container bg-smoked">
+          <div class="quote">
+            <p class="quote-text txt-lg-dark">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga
+              sequi suscipit quod temporibus tempora culpa recusandae dolore
+              harum maxime. Quae facere.
+            </p>
+            <span class="author">-Thor, God of Thunder</span>
+          </div>
+        </div>
+
+        <div class="container bg-light">
+          <div class="join-now">
+            <section>
+              <h3 class="join-heading">Call to action heading</h3>
+              <p class="join-text txt-sm-light">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              </p>
+            </section>
+            <a class="sign-up cta-btn" href="#">Sign up</a>
+          </div>
+        </div>
+      </main>
+      <footer class="footer bg-dark">Copyright © The Odin Project 2021</footer>
+    </div>
   </body>
 </html>
