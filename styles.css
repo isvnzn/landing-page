@@ -143,3 +143,20 @@ body {
 .card p {
   color: #4c5664;
 }
+
+.quote {
+  padding: 125px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-text {
+  font-style: italic;
+}
+
+.author {
+  color: #1f2937;
+  font-size: 24px;
+  font-weight: 700;
+  align-self: flex-end;
+}
