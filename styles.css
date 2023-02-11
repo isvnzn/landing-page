@@ -42,7 +42,7 @@ body {
 .hero,
 .features,
 .quote,
-.cta {
+.join-now {
   width: 1200px;
 }
 
@@ -70,6 +70,14 @@ body {
 .txt-sm-light {
   color: #e5e7eb;
   font-size: 18px;
+}
+
+.cta-btn {
+  color: #ffffff;
+  background-color: #3882f6;
+  font-size: 18px;
+  padding: 8px 32px;
+  border-radius: 10px;
 }
 
 /* **************  */
@@ -108,12 +116,6 @@ body {
   color: #f9faf8;
   font-size: 48px;
   font-weight: 900;
-}
-
-.sign-up {
-  background-color: #3882f6;
-  padding: 8px 32px;
-  border-radius: 10px;
 }
 
 .features {
@@ -160,4 +162,31 @@ body {
   font-size: 24px;
   font-weight: 700;
   align-self: flex-end;
+}
+
+.join-now {
+  display: flex;
+  align-items: center;
+  background-color: #3882f6;
+  border-radius: 20px;
+  padding: 60px 125px;
+  margin: 100px 0;
+}
+
+.join-heading {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.join-now section {
+  margin-right: auto;
+}
+
+.join-text {
+  margin: 6px 0 0;
+}
+
+.join-now .sign-up {
+  border: 2px solid #ffffff;
 }
