@@ -96,3 +96,22 @@ body {
   color: #e5e7eb;
   font-size: 18px;
 }
+
+.hero {
+  display: flex;
+  align-items: center;
+  height: 600px;
+  gap: 140px;
+}
+
+.hero-heading {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.sign-up {
+  background-color: #3882f6;
+  padding: 8px 32px;
+  border-radius: 10px;
+}
