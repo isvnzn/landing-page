@@ -47,3 +47,52 @@ body {
 }
 
 /* **************  */
+
+/* reusable class */
+
+.bg-dark {
+  background-color: #1f2937;
+}
+
+.bg-light {
+  background-color: #ffffff;
+}
+
+.bg-smoked {
+  background-color: #e5e7eb;
+}
+
+.txt-lg-dark {
+  color: #1f2937;
+  font-size: 36px;
+}
+
+.txt-sm-light {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+/* **************  */
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo {
+  margin-right: auto;
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.links {
+  display: flex;
+  gap: 16px;
+}
+
+.link a {
+  color: #e5e7eb;
+  font-size: 18px;
+}
